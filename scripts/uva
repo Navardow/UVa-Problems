@@ -1,0 +1,15 @@
+#!/bin/bash
+
+DIR="$1"
+
+if (( $# != 1 )); then
+    echo "Usage: $0 <problem-dir>"
+    exit 1
+fi
+
+if [[ -d "./${DIR}" ]]; then
+    echo "Problem directory already exists"
+    exit 1
+fi
+
+mkdir "./${DIR}" && touch "./${DIR}/main.cpp" "./${DIR}/input.txt"
