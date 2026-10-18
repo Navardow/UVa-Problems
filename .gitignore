@@ -1,0 +1,13 @@
+*
+!*/
+
+!/.gitignore
+!/README.md
+!/scripts/**
+!*.accepted/**
+
+*.out
+out
+.out
+.tmsu/
+testing/
