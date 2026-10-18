@@ -3,8 +3,10 @@
 
 !/.gitignore
 !/README.md
+
 !/scripts/**
-!*.accepted/**
+!/UVa_problems/*.accepted
+!/UVa_problems/*.accepted/**
 
 *.out
 out
