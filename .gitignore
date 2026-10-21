@@ -7,6 +7,7 @@
 !/scripts/**
 !/UVa_problems/*.accepted
 !/UVa_problems/*.accepted/**
+!CompetitiveProgramming3.pdf
 
 *.out
 out
